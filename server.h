@@ -1,5 +1,5 @@
 /* Server class
-* @author yanhao
+** @author yanhao
 * @date 2020/9/22
 * @copyleft GPL 2.0
 */
@@ -7,14 +7,17 @@
 #define __SERVER_H__
 
 namespace advance {
-    class Server{
+
+class Server
+{
     public:
         Server();
         ~Server();
     public:
         void run();
 };
-}
+
+}//namespace 
 
 
 #endif 

@@ -1,3 +1,8 @@
+/* Server class
+** @author yanhao
+* @date 2020/9/22
+* @copyleft GPL 2.0
+*/
 #include <iostream>
 #include "server.h"
 int main(int argc ,char * argv[])
