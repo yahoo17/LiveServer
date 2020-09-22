@@ -2,10 +2,10 @@
 #include "server.h"
 int main(int argc ,char * argv[])
 {
-    Server * server =new Server();
+    advance::Server * server =new advance::Server();
     if(server){
         server->run();
     }
-    
+
     return 0;
 }
