@@ -20,7 +20,7 @@ void Server::run(){
 
     while(1){
         std::cout<<"runing..."<<std::endl;
-        ::usleep(1000000)
+        ::usleep(1000000);
 
     }
 }

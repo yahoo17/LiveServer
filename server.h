@@ -12,7 +12,7 @@ namespace advance {
         Server();
         ~Server();
     public:
-        run();
+        void run();
 };
 }
 
