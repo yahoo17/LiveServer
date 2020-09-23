@@ -4,7 +4,7 @@
 * @copyleft GPL 2.0
 */
 #include <iostream>
-#include "server.h"
+#include "server.cpp"
 int main(int argc ,char * argv[])
 {
     advance::Server * server =new advance::Server();
