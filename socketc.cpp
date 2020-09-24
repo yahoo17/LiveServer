@@ -1,16 +1,19 @@
 //socketc.cpp
 #include <sys/socket.h>
 #include <sys/types.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
 #include <string.h>
+#include <unistd.h>
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
-#define MESSAGE_LEN 1024; 
-#define PORT 8111;
+#define MESSAGE_LEN 1024
+#define PORT 8111
 int main(int argc, char * argv[])
 {
     
-    int socket_fd = socket(AF_INET,SOKC_STREAM,0);
+    int socket_fd = socket(AF_INET,SOCK_STREAM,0);
     if(socket_fd<0){
         std::cout<<"Create socket failed\n";
         exit(-1);
