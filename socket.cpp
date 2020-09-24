@@ -17,7 +17,7 @@ int main(int argc,char * argv[])
     int ret = setsockopt(sock_fd,
                 SOL_SOCKET,
                 SO_REUSEADDR,
-                on,
+                &on,
                 sizeof(on));
     if(ret==-1){
         std::cout<<"Fail to set socket option\n";
