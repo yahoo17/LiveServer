@@ -2,11 +2,6 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-void daemon()
-{
-
-}
-
 int main(int argc , char *argv[])
 {
    if(daemon(0,0)<0){
